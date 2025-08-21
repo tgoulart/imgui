@@ -15,10 +15,12 @@ target_sources(imgui
     imstb_rectpack.h
     imstb_textedit.h
     imstb_truetype.h
+    misc/cpp/imgui_stdlib.h
   PRIVATE
     imgui_demo.cpp
     imgui_draw.cpp
     imgui_tables.cpp
     imgui_widgets.cpp
     imgui.cpp
+    misc/cpp/imgui_stdlib.cpp
 )
